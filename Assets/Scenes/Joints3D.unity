@@ -1211,12 +1211,12 @@ FixedJoint:
   m_GameObject: {fileID: 1080192622}
   m_ConnectedBody: {fileID: 927084112}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
+  m_BreakForce: 1
+  m_BreakTorque: 1
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
+  m_MassScale: 10
+  m_ConnectedMassScale: 10
 --- !u!54 &1080192625
 Rigidbody:
   m_ObjectHideFlags: 0
